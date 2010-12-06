@@ -1,0 +1,57 @@
+<html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="https://github.com/slightlymore/jQuery-clickableBlocks/raw/master/jQuery.clickableBlocks.js"></script>
+
+<script type="text/javascript">
+<!--
+$(document).ready(function() {
+	$('.clickable LI').clickableBlocks();
+	$('P.clickable').clickableBlocks();
+
+});
+//-->
+</script>
+
+<style type="text/css">
+<!--
+P.clickable:hover	{
+	background-color: #EFEFEF;
+}
+UL.clickable LI:hover	{
+	background-color: #EFEFEF;
+}
+
+-->
+</style>
+
+</head>
+<body>
+
+<h1>clickableBlocks() Examples</h1>
+
+<h2>Simple Paragraphs</h2>
+<p class="clickable">Quisque posuere, quam varius sollicitudin convallis, nisl velit ultrices mi, id mattis odio sem in nibh. Integer dui urna, tincidunt in fermentum eget, eleifend vitae felis. Curabitur id est diam, et varius tortor. Nulla aliquet velit eget libero tristique vitae consectetur lacus auctor. In hac habitasse platea dictumst. <a href="#link1">Link #1...</a></p>
+
+<h2>Lists</h2>
+<ul class="clickable">
+	<li>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu mauris et lorem laoreet mollis ut vel arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse mi purus, placerat ut sodales ac, lobortis porta eros</p>
+		<p><a href="#link2">Link #2</a></p>
+	</li>
+
+	<li>
+		<p>Cras sed laoreet mi. Vestibulum mauris mi, convallis at vulputate ac, molestie ut lectus. Nullam dui dui, interdum eu tempor vel, pellentesque eu lorem. Sed pharetra consequat massa, quis consectetur mi eleifend eu.</p>
+		<p><a href="#link3">Link #3</a></p>
+	</li>
+
+	<li>
+		<p>This is a paragraph with three links. The first link is the one that will be used by the clickableBlocks function.</p>
+		<p><a href="#link4">Link #4</a> | <a href="#link5">Click #5</a> | <a href="#link6">Click #6</a></p>
+	</li>
+</ul>
+
+
+</body>
+</html>	
